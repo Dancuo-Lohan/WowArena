@@ -9,17 +9,11 @@ A step-by-step series of examples that tell you how to get a development environ
 git clone https://github.com/Dancuo-Lohan/wowArena.git
 cd wowArena
 ```
-2. **Set Up a Virtual Environment (Optional but recommended)**
-```bash
-python -m venv env
-env\Scripts\activate  # On Windows
-source env/bin/activate  # On Unix or MacOS
-```
-3. **Install Required Packages**
+2. **Install Required Packages (if requirements.txt exist)**
 ```bash
 pip install -r requirements.txt
 ```
-4. **Run the Development Server**
+3. **Run the Development Server**
 ```bash
 python manage.py runserver
 ```
