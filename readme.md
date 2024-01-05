@@ -6,7 +6,7 @@
 A step-by-step series of examples that tell you how to get a development environment running:
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/wowArena.git
+git clone https://github.com/Dancuo-Lohan/wowArena.git
 cd wowArena
 ```
 2. **Set Up a Virtual Environment (Optional but recommended)**
