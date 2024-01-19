@@ -17,6 +17,10 @@ pip install -r requirements.txt
 ```bash
 python manage.py runserver 8080
 ```
+4. **To start the tailwind watcher**
+```bash
+python manage.py tailwind start
+```
 
 ## How to access to the web server
 Visit http://localhost:8080 in your browser.
