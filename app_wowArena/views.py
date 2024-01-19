@@ -1,4 +1,4 @@
 from django.shortcuts import render
 
 def home(request):
-    return render(request, 'app_wowArena/home.html')
+    return render(request, 'home.html')

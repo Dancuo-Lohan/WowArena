@@ -15,8 +15,8 @@ pip install -r requirements.txt
 ```
 3. **Run the Development Server**
 ```bash
-python manage.py runserver
+python manage.py runserver 8080
 ```
 
 ## How to access to the web server
-Visit http://localhost:8000 in your browser.
+Visit http://localhost:8080 in your browser.
