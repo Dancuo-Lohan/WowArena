@@ -9,15 +9,15 @@ A step-by-step series of examples that tell you how to get a development environ
 git clone https://github.com/Dancuo-Lohan/wowArena.git
 cd wowArena
 ```
-2. **Install Required Packages (if requirements.txt exist)**
+<!-- 2. **Install Required Packages (if requirements.txt exist)**
 ```bash
 pip install -r requirements.txt
-```
-3. **Run the Development Server**
+``` -->
+2. **Run the Development Server**
 ```bash
 python manage.py runserver 8080
 ```
-4. **To start the tailwind watcher**
+3. **To start the tailwind watcher**
 ```bash
 python manage.py tailwind start
 ```
