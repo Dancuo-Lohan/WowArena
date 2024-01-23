@@ -1,19 +1,74 @@
 {% load static tailwind_tags %}
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    <title>Wow Arena</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		{% tailwind_css %}
-	</head>
 
-	<body class="bg-gray-50 font-serif leading-normal tracking-normal">
-		<div class="container mx-auto">
-			<section class="flex items-center justify-center h-screen">
-				<h1 class="text-5xl">Django + Tailwind = ❤️</h1>
-			</section>
-		</div>
-	</body>
+<head>
+	<title>World of Prediction</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	{% tailwind_css %}
+</head>
+
+<body class="bg-dark-gray p-0 m-0 w-full absolute overflow-x-hidden min-h-full font-raleaway">
+	<header class="w-full h-20 z-10 sticky top-0 inset-x-0 bg-dark-gray">
+		<img>
+		<h1>World of Prediction</h1>
+	</header>
+
+	<div class="w-full max-w-screen-2xl relative inset-x-0 mx-auto flex justify-around">
+		<section>
+			<h2>Master the <span>Art of Battle</span></h2>
+			<h3>Your ultimate PvP Arena predictor for <span>Mist Of Pandaria</span><span>*</span></h3>
+
+			<p>* This content is not affiliated with, endorsed, sponsored, or specifically approved by Blizzard
+				Entertainment® or World of Warcraft®</p>
+
+
+			<div>
+				<a>
+					<p>
+						Scroll down
+					</p>
+				</a>
+				<a>
+				</a>
+			</div>
+		</section>
+
+		<section>
+			<div>
+				<h3>What's the type of the game?</h3>
+				<button>Battle Ground (bg)</button>
+				<button>Arena 2vs2</button>
+				<button>Arena 3vs3</button>
+				<button>Arena 5vs5</button>
+			</div>
+			<div>
+				<h3>What's the map of the game?</h3>
+				<select></select>
+			</div>
+			<div>
+				<h3>Define the players for each teams</h3>
+				<div>
+					<div>
+						<h3>Team A</h3>
+						<button>🎲 Randomize</button>
+						<div id="teamAInputsContainer"></div>
+					</div>
+					<div>
+						<h3>Team B</h3>
+						<button>🎲 Randomize</button>
+						<div id="teamBInputsContainer"></div>
+					</div>
+				</div>
+			</div>
+			<button>
+				Predict the winner
+			</button>
+			<p>Team A has 56% of winrate against Team B</p>
+		</section>
+	</div>
+</body>
+
 </html>

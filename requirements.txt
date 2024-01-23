@@ -1,1 +1,4 @@
-Django==5.0.1
+django
+tailwind
+django-tailwind
+django-tailwind[reload]

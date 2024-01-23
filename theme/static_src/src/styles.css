@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Raleway";
+    src: url("raleway.ttf") format("ttf"),
+        url("raleway.woff2") format("woff2");
+}

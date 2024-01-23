@@ -42,7 +42,37 @@ module.exports = {
         // '../../**/*.py'
     ],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                'raleaway': ['"Raleway"', 'sans-serif'],
+            },
+            letterSpacing: {
+                tightest: '-.075em',
+                tighter: '-.05em',
+                tight: '-.025em',
+                normal: '0',
+                wide: '.025em',
+                wider: '.05em',
+                widest: '.1em',
+                widest: '.25em',
+                '1': '1px',
+                '2': '2px',
+                '4': '4px',
+            },
+            colors: {
+                'red': '#FF8B8B',
+                'white': '#FFFFFF',
+                'yellow': '#FFFBA4',
+                'green': '#AEE584',
+                'orange': '#FFBE98',
+                'dark-gray': '#1F1F1F',
+            },
+            height: {
+                'screen-4/5': '80vh',
+                'screen-1/2': '50vh',
+                'screen-9/1O': '90vh',
+            },
+        },
     },
     plugins: [
         /**

@@ -13,11 +13,15 @@ cd wowArena
 ```bash
 pip install -r requirements.txt
 ```
-3. **Run the Development Server**
+3. **Install the tailwind dependencies**
+```bash
+python manage.py tailwind install
+```
+4. **Run the Development Server**
 ```bash
 python manage.py runserver 8080
 ```
-4. **To start the tailwind watcher**
+5. **To start the tailwind watcher**
 ```bash
 python manage.py tailwind start
 ```
