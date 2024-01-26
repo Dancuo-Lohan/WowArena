@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Raleway";
-    src: url("raleway.ttf") format("ttf"),
-        url("raleway.woff2") format("woff2");
+    font-family: "MavenPro";
+    src: url("../MavenPro.ttf") format("ttf"),
+        url("../MavenPro.woff2") format("woff2");
+}
+
+.bg-image {
+    box-shadow: inset 0px -40px 60px 40px #1F1F1F;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 12px #1F1F1F, 0px 0px 8px #1F1F1F;
 }

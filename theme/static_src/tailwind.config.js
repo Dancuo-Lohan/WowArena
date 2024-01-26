@@ -44,7 +44,7 @@ module.exports = {
     theme: {
         extend: {
             fontFamily: {
-                'raleaway': ['"Raleway"', 'sans-serif'],
+                'MavenPro': ['"MavenPro"', 'sans-serif'],
             },
             letterSpacing: {
                 tightest: '-.075em',
@@ -66,6 +66,7 @@ module.exports = {
                 'green': '#AEE584',
                 'orange': '#FFBE98',
                 'dark-gray': '#1F1F1F',
+                'blue': '#84D9E5',
             },
             height: {
                 'screen-4/5': '80vh',
