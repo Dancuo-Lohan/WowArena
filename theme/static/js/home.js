@@ -2,6 +2,8 @@ console.log('js loaded')
 
 const gameTypeSelectionContainer = document.getElementById('game_type_selection')
 const mapSelector = document.getElementById('mapSelector')
+const predictButton = document.getElementById('predictButton')
+const predictionResult = document.getElementById('predictionResult')
 
 const gameMapsBg = ['Twin Peaks', 'Silvershard Mines', 'Warsong Gulch',
 'Temple of Kotmogu', 'The Battle for Gilneas', 'Deepwind Gorge',
@@ -103,6 +105,10 @@ gameTypeSelectionContainer.querySelectorAll('button').forEach(button => {
             addPlayers('B', 5)
         }
     })
+})
+
+predictButton.addEventListener('click', () => {
+    predictionResult.classList.remove('hidden')
 })
 
 function addPlayers(teamId, number) {
